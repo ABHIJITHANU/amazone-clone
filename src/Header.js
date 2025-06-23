@@ -1,5 +1,6 @@
 import "./Header.css";
 import SearchIcon from '@mui/icons-material/Search';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 function Header() {
   return (
@@ -7,9 +8,7 @@ function Header() {
       <img src="/assets/amazone-header-logo.png" alt="Amazon Logo" className="header_logo" />
       <div className="header_search">
         <input type="text" className="header_searchInput" />
-        <button className="header_searchButton">
-          <SearchIcon />
-        </button>
+          <SearchIcon className="header_searchIcon" />
         <div className="header_nav">
           <div className="header_option">
             <span className="header_optionLineOne">Hello Guest</span>
@@ -22,6 +21,10 @@ function Header() {
           <div className="header_option">
             <span className="header_optionLineOne">Your</span>
             <span className="header_optionLineTwo">Prime</span>
+          </div>
+          <div className="header_optionBasket">
+            <ShoppingBasketIcon />
+            <span className="header_optionLineTwo header_basketCount">0</span>
           </div>
         </div>
       </div>
