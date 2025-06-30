@@ -1,4 +1,5 @@
 import './Home.css';
+import Product from './Product';
 
 function Home() {
   return (
@@ -9,16 +10,52 @@ function Home() {
           alt="Home"
         />
         <div className='home_row'>
-            {/* Product */}
-            {/* Product */}
+            <Product
+              id="12341"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={19.99}
+              rating={5}
+            />
+            <Product
+              id="12342"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={29.99}
+              rating={3}
+            />
         </div>
         <div className='home_row'>
-            {/* Product */}
-            {/* Product */}
-            {/* Product */}
+            <Product 
+              id="12343"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={29.99}
+              rating={3}
+            />
+            <Product
+              id="12344"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={39.99}
+              rating={4}
+            />
+            <Product
+              id="12345"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={49.99}
+              rating={5}
+            />
         </div>
         <div className='home_row'>
-            {/* Product */}
+            <Product
+              id="12346"
+              title="The Product Startup"
+              image="\assets\wall_lamp_amazone.jpg"
+              price={59.99}
+              rating={3}
+            />
         </div>
 
         </div>
